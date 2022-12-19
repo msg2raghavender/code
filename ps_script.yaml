@@ -1,0 +1,11 @@
+---
+- name: power shell script
+  hosts: windows
+  gather_facts: true
+  tasks:
+    # - name: copy file
+    # win_copy:
+    #   src: fs.ps1
+    #   dest: C:\fs.ps1
+    - name: run script
+      script: fs.ps1
