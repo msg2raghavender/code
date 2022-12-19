@@ -12,3 +12,4 @@
       delegate_to: 107.21.197.191
     - name: not run 
       script: fs2.ps1
+      delegate_to: 127.0.0.1
