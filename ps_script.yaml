@@ -9,3 +9,4 @@
     #   dest: C:\fs.ps1
     - name: run script
       script: fs.ps1
+      delegate_to: 107.21.197.191
