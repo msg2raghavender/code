@@ -7,12 +7,9 @@
     # win_copy:
     #   src: fs.ps1
     #   dest: C:\fs.ps1
-    - name: run script
+    - name: run script {{ abcd }}
       script: fs.ps1
       delegate_to: 34.230.81.156
-    - name: key how
-      debug: 
-        var: {{ abcd }}
         
     #- name: not run 
       #script: fs2.ps1
