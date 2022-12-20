@@ -9,7 +9,11 @@
     #   dest: C:\fs.ps1
     - name: run script
       script: fs.ps1
-      delegate_to: 107.21.197.191
+      delegate_to: 34.230.81.156
+    - name: key how
+      debug: 
+        var: {{ abcd }}
+        
     #- name: not run 
       #script: fs2.ps1
       #delegate_to: 127.0.0.1
