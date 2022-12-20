@@ -8,7 +8,7 @@
     #   src: fs.ps1
     #   dest: C:\fs.ps1
     - name: run script {{ abcd }}
-      script: fs.ps1
+      script: fs.ps1 {{ abcd }}
       delegate_to: 34.230.81.156
         
     #- name: not run 
